@@ -1,0 +1,372 @@
+nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 5%;
+  height: 100px;
+  background-color: #E83009;
+}
+
+nav .logo{
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+nav .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .links li {
+  list-style: none;
+}
+
+nav .links a {
+  display: block;
+  padding: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*#nav-toggle {
+  position: absolute;
+  top: -100px;
+}*/
+
+/*nav .icon-burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+
+/*nav .icon-burger .line {
+  width: 30px;
+  height: 5px;
+  background-color: #FFFFFF;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+}*/
+
+/*@media screen and (max-width: 768px) {*/
+  nav .logo {
+    float: none;
+    width: auto;
+    justify-content: left;
+  }
+
+  /*nav .links {
+     float: none;
+     position: fixed;
+     z-index: 9;
+     left: 0;
+     right: 0;
+     top: 100px;
+     bottom: 100px;
+     width: auto;
+     height: auto;
+     flex-direction: column;
+     justify-content: space-between;
+     background-color: rgb(0,0,0,.8);
+     overflow: hidden;
+     transition: all .5s ease-in-out;*/
+  }
+  nav .links a {
+      font-size: 20px;
+  }
+  /*nav .icon-burger {
+    display: block;*/
+  }
+  nav .checked .links {
+    bottom: 0;
+  }
+  /*nav .icon-burger {
+    display: block;
+  }*/
+
+}
+
+@import url('http://fonts.gogoleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+ }
+ body {
+  min-height: 100vh;
+  background: #FFFFFF;
+ }
+.navigation {
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background: #E83009;
+  transition: 0.5s;
+  overflow: hidden;
+}
+/*.navigation:hover{
+  width: 300px;
+}*/
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navigation ul li{
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.navigation ul li:hover{
+  background: #000000;
+}
+.navigation ul li a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.navigation ul li a .icon .fa{
+  font-size: 24px;
+}
+.navigation ul li a .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+}
+
+
+/*.card-body1{
+  float: right;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background: #E83009;
+  margin: 10px;
+  padding-top:10px;
+  padding-left:10px;
+  width: 350px;
+  height: 150px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}*/
+
+.card-body1{
+  float: right;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background: #E83009;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 150px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-body2{
+  float: right;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background: #E83009;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 150px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-body3{
+  float: right;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background: #E83009;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 150px;
+  color: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.adm{
+  margin-left: 600px;
+}
+
+/* For testing sidebar */
+
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 350px;
+  left: 0;
+  background: #E83009;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.sidebar .text{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  /*line-height: 65px;*/
+  text-align: center;
+  background:  #E83009;
+  letter-spacing: 1px;
+}
+
+nav ul{
+    background:  #E83009;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+  line-height: 60px;
+  border-bottom: 1px solid #E83009;
+}
+
+nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  width: 90%
+  border-left: 3px solid transparent;
+  padding-right: 50px;
+}
+
+nav ul li a:hover{
+  color: black;
+  border-left-color: black;
+}
+
+nav ul ul{
+  position: static;
+  display: none;
+}
+
+nav ul .emp-show.show{
+  display: block;
+}
+
+nav ul .dep-show.show1{
+  display: block;
+}
+
+
+nav ul ul li{
+  line-height: 42px;
+  border-bottom: none;
+}
+
+nav ul ul li a{
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 30px;
+}
+ nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s
+ }
+
+ nav ul li a:hover span{
+  transform: translateY(-50%) rotate(-180deg);
+ }
+
+ /*nav ul li:hover{
+  background: #000000;
+}*/
+
+nav ul li a .icon {
+  font-size: 24px;
+}
+
+nav ul li a{
+ font-size: 24px;
+}
+
+nav ul li ul li a{
+ font-size: 16px;
+}
+
+/*TESTING */
+
+.navigation ul li a .icon1 {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+.navigation ul li a .icon1 .fa{
+  font-size: 15px;
+}
+.navigation ul li a .title1 {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
